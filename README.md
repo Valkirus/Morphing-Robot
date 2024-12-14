@@ -9,6 +9,7 @@
 **15/12/2024 01:52:**
 - $131.50 for Morphex Rotating Arm
 - $58.58 for 1x Servo and 1x Serial Servo Controller
+
 **Total:** $190.08
 
 
