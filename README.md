@@ -1,5 +1,7 @@
 # Project: Morphex Rotating Arm
 
+This is a WIP project I'm working on. It'll take years to gather knowledge and the budget to actually build it.
+
 ## TODO
 1. Remodel brackets and servo.
 2. Think about materials more.
@@ -17,6 +19,6 @@
 - I have a working model with the original servos. The model is usable and can be visualized.
 - Electronics haven't been selected yet but [HiWonder Controller](https://www.hiwonder.com/products/serial-bus-servo-controller) and [HTS-35H Servos](https://www.hiwonder.com/collections/bus-servo/products/hts-35h) are good combos
 
-**16/12/2024 13:30:**
+**15/12/2024 13:30:**
 - I have to wait until new years to buy a servo to measure it's dimensions and remodel the servo's CAD model 
 - Haven't decided on materials yet, but cnc'ed aluminum for high stress parts and maybe ASA/ABS for the rest
