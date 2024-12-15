@@ -7,6 +7,8 @@ This is a WIP project I'm working on. It'll take years to gather knowledge and t
 2. Think about materials more.
 3. Cost analysis.
 
+[hexapod](images/solidworks-1.png)
+
 ## Costs
 **15/12/2024 01:49:**
 - $131.50 for Morphex Rotating Arm
