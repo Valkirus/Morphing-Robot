@@ -7,7 +7,8 @@ This is a WIP project I'm working on. It'll take years to gather knowledge and t
 2. Think about materials more.
 3. Cost analysis.
 
-![hexapod](images/solidworks-1.png)
+![hexapod1](images/solidworks-4.png)
+![hexapod](images/solidworks-7.png)
 
 ## Costs
 **15/12/2024 01:49:**
