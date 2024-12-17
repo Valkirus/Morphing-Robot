@@ -24,3 +24,6 @@ This is a WIP project I'm working on. It'll take years to gather knowledge and t
 **15/12/2024 13:30:**
 - I have to wait until new years to buy a servo to measure it's dimensions and remodel the servo's CAD model 
 - Haven't decided on materials yet, but cnc'ed aluminum for high stress parts and maybe ASA/ABS for the rest
+
+**18/12/2024 13:30:**
+- I have remade the model to use HTD-45H servos
