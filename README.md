@@ -12,10 +12,12 @@ This is a WIP project I'm working on. It'll take years to gather knowledge and t
 
 ## Costs
 **15/12/2024 01:49:**
-- $131.50 for Morphex Rotating Arm
-- $58.58 for 1x Servo and 1x Serial Servo Controller
+- $274.51 for All CNC machined parts (so far)
+- ~$30 for small hardware pieces (Spacers, Threaded Rods, Bearings,)
+- $815.78 for all 33 servos and controllers (with metal horns) 1x HTS-35H, 32x HTD-45H
+- $64.18 for brackets to mount each legs
 
-**Total:** $190.08
+**Total:** $1,184.49
 
 ## Progress
 **15/12/2024 01:48:**
@@ -28,3 +30,6 @@ This is a WIP project I'm working on. It'll take years to gather knowledge and t
 
 **18/12/2024 13:30:**
 - I have remade the model to use HTD-45H servos
+
+**20/12/2024 22:36:**
+- Remade a few parts to actually fit read world designs and store bought parts.
