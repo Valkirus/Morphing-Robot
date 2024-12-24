@@ -3,7 +3,14 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "052358d7-5ddc-4c08-9f7c-e72527a6cfda")
-	(paper "A4")
+	(paper "A3")
+	(title_block
+		(title "Teensy 4.1 Hexapod PCB ")
+		(date "2024-12-24")
+		(rev "V0.01")
+		(company "Jirakorn Sukmee")
+		(comment 1 "hello")
+	)
 	(lib_symbols
 		(symbol "33R:LD29150DT33R"
 			(pin_names
@@ -4452,7 +4459,7 @@
 		(uuid "211afb62-34c0-4ff6-865d-67722d1f4e81")
 	)
 	(junction
-		(at 144.78 152.4)
+		(at 36.83 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22b376f2-9831-492f-bcef-d25a1248885a")
@@ -4464,7 +4471,7 @@
 		(uuid "71eba878-6c86-408b-aeef-e7a982c62f54")
 	)
 	(junction
-		(at 162.56 185.42)
+		(at 54.61 279.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72db1cf1-a9d3-4fba-b70b-bef6a410308b")
@@ -4511,7 +4518,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 149.86) (xy 144.78 152.4)
+			(xy 36.83 243.84) (xy 36.83 246.38)
 		)
 		(stroke
 			(width 0)
@@ -4521,7 +4528,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 167.64) (xy 162.56 185.42)
+			(xy 54.61 261.62) (xy 54.61 279.4)
 		)
 		(stroke
 			(width 0)
@@ -4761,7 +4768,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 152.4) (xy 144.78 154.94)
+			(xy 36.83 246.38) (xy 36.83 248.92)
 		)
 		(stroke
 			(width 0)
@@ -4871,7 +4878,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 185.42) (xy 144.78 185.42)
+			(xy 54.61 279.4) (xy 36.83 279.4)
 		)
 		(stroke
 			(width 0)
@@ -4921,7 +4928,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 152.4) (xy 162.56 162.56)
+			(xy 54.61 246.38) (xy 54.61 256.54)
 		)
 		(stroke
 			(width 0)
@@ -4931,7 +4938,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 152.4) (xy 162.56 152.4)
+			(xy 36.83 246.38) (xy 54.61 246.38)
 		)
 		(stroke
 			(width 0)
@@ -5049,7 +5056,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 261.62 16.51 90)
+		(at 372.11 19.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5058,7 +5065,7 @@
 		(fields_autoplaced yes)
 		(uuid "0209e2ff-c4a8-4b66-9277-4c3c5b723f0b")
 		(property "Reference" "#PWR01"
-			(at 265.43 16.51 0)
+			(at 375.92 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5074,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 257.81 16.5099 90)
+			(at 368.3 19.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 16.51 0)
+			(at 372.11 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +5092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 16.51 0)
+			(at 372.11 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,7 +5101,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 261.62 16.51 0)
+			(at 372.11 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,7 +5567,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 222.25 38.1 90)
+		(at 337.82 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5569,7 +5576,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fcbc024-4062-4a87-a13f-88f1d8225d76")
 		(property "Reference" "#PWR07"
-			(at 226.06 38.1 0)
+			(at 341.63 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5578,7 +5585,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 218.44 38.0999 90)
+			(at 334.01 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5587,7 +5594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 38.1 0)
+			(at 337.82 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,7 +5603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 38.1 0)
+			(at 337.82 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,7 +5612,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 222.25 38.1 0)
+			(at 337.82 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5693,7 +5700,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 266.7 16.51 0)
+		(at 377.19 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5702,7 +5709,7 @@
 		(fields_autoplaced yes)
 		(uuid "125cde07-e0c7-4d66-85d4-f0e8193c1056")
 		(property "Reference" "J1"
-			(at 269.24 16.5099 0)
+			(at 379.73 19.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5711,7 +5718,7 @@
 			)
 		)
 		(property "Value" "Main Terminal"
-			(at 269.24 19.0499 0)
+			(at 379.73 21.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5720,7 +5727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 16.51 0)
+			(at 377.19 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +5736,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 16.51 0)
+			(at 377.19 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,7 +5745,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 266.7 16.51 0)
+			(at 377.19 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +5770,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 222.25 58.42 90)
+		(at 337.82 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5772,7 +5779,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b4fa080-df49-46a0-9810-c4002d030d51")
 		(property "Reference" "#PWR05"
-			(at 226.06 58.42 0)
+			(at 341.63 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,7 +5788,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 218.44 58.4199 90)
+			(at 334.01 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +5797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 58.42 0)
+			(at 337.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +5806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 58.42 0)
+			(at 337.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +5815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 222.25 58.42 0)
+			(at 337.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +5837,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 60.96 90)
+		(at 388.62 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5839,7 +5846,7 @@
 		(fields_autoplaced yes)
 		(uuid "1dc96117-bd7b-42f3-92cb-18069df72c25")
 		(property "Reference" "#PWR06"
-			(at 279.4 60.96 0)
+			(at 394.97 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,7 +5855,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 60.9599 90)
+			(at 392.43 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +5864,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 60.96 0)
+			(at 388.62 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +5873,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 60.96 0)
+			(at 388.62 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +5882,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 60.96 0)
+			(at 388.62 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5897,7 +5904,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 68.58 24.13 0)
+		(at 73.66 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5905,8 +5912,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25f037e4-e2ee-4f5d-afba-777f72a43737")
-		(property "Reference" "J7"
-			(at 69.85 22.8599 0)
+		(property "Reference" "servo7"
+			(at 74.93 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,16 +5922,17 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 69.85 25.3999 0)
+			(at 74.93 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 24.13 0)
+			(at 73.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,7 +5941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 24.13 0)
+			(at 73.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +5950,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 68.58 24.13 0)
+			(at 73.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +5970,7 @@
 		(instances
 			(project "Morphex-PCB"
 				(path "/052358d7-5ddc-4c08-9f7c-e72527a6cfda"
-					(reference "J7")
+					(reference "servo7")
 					(unit 1)
 				)
 			)
@@ -5970,7 +5978,7 @@
 	)
 	(symbol
 		(lib_id "RF:NRF24L01_Breakout")
-		(at 144.78 170.18 0)
+		(at 36.83 264.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5979,7 +5987,7 @@
 		(fields_autoplaced yes)
 		(uuid "26d3d319-959e-461d-978b-bf0b21d167eb")
 		(property "Reference" "U2"
-			(at 154.94 168.9099 0)
+			(at 46.99 262.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5988,7 +5996,7 @@
 			)
 		)
 		(property "Value" "NRF24"
-			(at 154.94 171.4499 0)
+			(at 46.99 265.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +6005,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:nRF24L01_Breakout"
-			(at 148.59 154.94 0)
+			(at 40.64 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6008,7 +6016,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf"
-			(at 144.78 172.72 0)
+			(at 36.83 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6017,7 +6025,7 @@
 			)
 		)
 		(property "Description" "Ultra low power 2.4GHz RF Transceiver, Carrier PCB"
-			(at 144.78 170.18 0)
+			(at 36.83 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +6267,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 35.56 24.13 0)
+		(at 40.64 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6267,8 +6275,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36e66939-a8fc-4830-b13a-1ce2aa115adf")
-		(property "Reference" "J3"
-			(at 36.83 22.8599 0)
+		(property "Reference" "servo1"
+			(at 41.91 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,16 +6285,17 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 36.83 25.3999 0)
+			(at 41.91 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 24.13 0)
+			(at 40.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,7 +6304,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 24.13 0)
+			(at 40.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +6313,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 35.56 24.13 0)
+			(at 40.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6324,7 +6333,7 @@
 		(instances
 			(project ""
 				(path "/052358d7-5ddc-4c08-9f7c-e72527a6cfda"
-					(reference "J3")
+					(reference "servo1")
 					(unit 1)
 				)
 			)
@@ -6332,7 +6341,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 35.56 58.42 0)
+		(at 40.64 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6340,8 +6349,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3747dcc0-7a81-47b1-87fb-afbb5890014e")
-		(property "Reference" "J6"
-			(at 36.83 57.1499 0)
+		(property "Reference" "servo5"
+			(at 41.91 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6350,16 +6359,17 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 36.83 59.6899 0)
+			(at 41.91 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 58.42 0)
+			(at 40.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6368,7 +6378,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 58.42 0)
+			(at 40.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +6387,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 35.56 58.42 0)
+			(at 40.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6397,7 +6407,7 @@
 		(instances
 			(project "Morphex-PCB"
 				(path "/052358d7-5ddc-4c08-9f7c-e72527a6cfda"
-					(reference "J6")
+					(reference "servo5")
 					(unit 1)
 				)
 			)
@@ -6405,7 +6415,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Motion:BNO055")
-		(at 243.84 121.92 0)
+		(at 356.87 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6414,7 +6424,7 @@
 		(fields_autoplaced yes)
 		(uuid "385266c7-f33d-406e-8bfd-bb48f27c96a4")
 		(property "Reference" "U3"
-			(at 248.5741 101.6 0)
+			(at 361.6041 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,7 +6433,7 @@
 			)
 		)
 		(property "Value" "BNO055"
-			(at 248.5741 104.14 0)
+			(at 361.6041 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,7 +6442,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm"
-			(at 250.19 138.43 0)
+			(at 363.22 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,7 +6452,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf"
-			(at 243.84 116.84 0)
+			(at 356.87 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6451,7 +6461,7 @@
 			)
 		)
 		(property "Description" "Intelligent 9-axis absolute orientation sensor, LGA-28"
-			(at 243.84 121.92 0)
+			(at 356.87 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6554,7 +6564,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 185.42 90)
+		(at 54.61 279.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6562,7 +6572,7 @@
 		(dnp no)
 		(uuid "41bf8025-fca5-4742-8964-1a15e839527c")
 		(property "Reference" "#PWR012"
-			(at 168.91 185.42 0)
+			(at 60.96 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,7 +6581,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 185.4199 90)
+			(at 58.42 279.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6580,7 +6590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 185.42 0)
+			(at 54.61 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6589,7 +6599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 185.42 0)
+			(at 54.61 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,7 +6608,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 185.42 0)
+			(at 54.61 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6686,7 +6696,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 67.31 34.29 0)
+		(at 73.66 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6694,8 +6704,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "468dce03-d125-4aae-b541-965f8097a11e")
-		(property "Reference" "J8"
-			(at 68.58 33.0199 0)
+		(property "Reference" "servo8"
+			(at 74.93 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6704,16 +6714,17 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 68.58 35.5599 0)
+			(at 74.93 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 34.29 0)
+			(at 73.66 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,7 +6733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 34.29 0)
+			(at 73.66 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6731,7 +6742,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 67.31 34.29 0)
+			(at 73.66 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +6762,7 @@
 		(instances
 			(project "Morphex-PCB"
 				(path "/052358d7-5ddc-4c08-9f7c-e72527a6cfda"
-					(reference "J8")
+					(reference "servo8")
 					(unit 1)
 				)
 			)
@@ -6759,7 +6770,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 38.1 90)
+		(at 388.62 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6768,7 +6779,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bafd4e9-4ffb-4cb3-81f8-d7114f22afa9")
 		(property "Reference" "#PWR04"
-			(at 279.4 38.1 0)
+			(at 394.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6777,7 +6788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 38.0999 90)
+			(at 392.43 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +6797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 38.1 0)
+			(at 388.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6795,7 +6806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 38.1 0)
+			(at 388.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,7 +6815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 38.1 0)
+			(at 388.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6826,15 +6837,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 66.04 72.39 0)
+		(at 73.66 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "50a64dba-1d70-4bc7-88d2-76f191ea0c14")
-		(property "Reference" "J13"
-			(at 67.31 71.1199 0)
+		(property "Reference" "servo12"
+			(at 74.93 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,16 +6854,17 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 67.31 73.6599 0)
+			(at 74.93 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 72.39 0)
+			(at 73.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +6873,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 72.39 0)
+			(at 73.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,7 +6882,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 66.04 72.39 0)
+			(at 73.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6890,7 +6902,7 @@
 		(instances
 			(project "Morphex-PCB"
 				(path "/052358d7-5ddc-4c08-9f7c-e72527a6cfda"
-					(reference "J13")
+					(reference "servo12")
 					(unit 1)
 				)
 			)
@@ -6898,7 +6910,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 35.56 50.8 0)
+		(at 40.64 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6906,8 +6918,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5673bea8-37fc-4d27-b80c-8c4ebcaf87b3")
-		(property "Reference" "J5"
-			(at 36.83 49.5299 0)
+		(property "Reference" "servo4"
+			(at 41.91 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6916,16 +6928,17 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 36.83 52.0699 0)
+			(at 41.91 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 50.8 0)
+			(at 40.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6934,7 +6947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 50.8 0)
+			(at 40.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6943,7 +6956,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 35.56 50.8 0)
+			(at 40.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6963,7 +6976,7 @@
 		(instances
 			(project "Morphex-PCB"
 				(path "/052358d7-5ddc-4c08-9f7c-e72527a6cfda"
-					(reference "J5")
+					(reference "servo4")
 					(unit 1)
 				)
 			)
@@ -7036,8 +7049,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 59.69 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dbdd5b6-38e2-4daf-991c-5f9d1d54b76d")
+		(property "Reference" "servo13"
+			(at 60.96 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 60.96 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f346b86a-1943-4afa-a6a4-4c96aa7487d8")
+		)
+		(pin "2"
+			(uuid "acbac592-22a6-46da-be37-8f654b590e9a")
+		)
+		(pin "1"
+			(uuid "878a525e-0631-41f1-bbe5-cc30fcaab990")
+		)
+		(instances
+			(project "Morphex-PCB"
+				(path "/052358d7-5ddc-4c08-9f7c-e72527a6cfda"
+					(reference "servo13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
-		(at 222.25 35.56 90)
+		(at 337.82 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7046,7 +7132,7 @@
 		(fields_autoplaced yes)
 		(uuid "6dc88c2e-7291-4e6f-8e02-d589ccaae82b")
 		(property "Reference" "#PWR03"
-			(at 226.06 35.56 0)
+			(at 341.63 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7055,7 +7141,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 218.44 35.5599 90)
+			(at 334.01 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7064,7 +7150,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 35.56 0)
+			(at 337.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7073,7 +7159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 35.56 0)
+			(at 337.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7082,7 +7168,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 222.25 35.56 0)
+			(at 337.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7104,7 +7190,7 @@
 	)
 	(symbol
 		(lib_id "33R:LD29150DT33R")
-		(at 222.25 35.56 0)
+		(at 337.82 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7113,7 +7199,7 @@
 		(fields_autoplaced yes)
 		(uuid "83104173-57f8-43ce-bc04-f82ee7f5dacd")
 		(property "Reference" "CR1"
-			(at 247.65 25.4 0)
+			(at 363.22 46.99 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7121,7 +7207,7 @@
 			)
 		)
 		(property "Value" "LD29150DT33R"
-			(at 247.65 27.94 0)
+			(at 363.22 49.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7129,7 +7215,7 @@
 			)
 		)
 		(property "Footprint" "DPAK_STM"
-			(at 222.25 35.56 0)
+			(at 337.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,7 +7225,7 @@
 			)
 		)
 		(property "Datasheet" "LD29150DT33R"
-			(at 222.25 35.56 0)
+			(at 337.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7149,7 +7235,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 35.56 0)
+			(at 337.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,7 +7471,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 222.25 60.96 90)
+		(at 337.82 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7394,7 +7480,7 @@
 		(fields_autoplaced yes)
 		(uuid "940712b1-16c1-4da4-b603-ba83a3dbb98d")
 		(property "Reference" "#PWR08"
-			(at 226.06 60.96 0)
+			(at 341.63 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,7 +7489,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 218.44 60.9599 90)
+			(at 334.01 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7412,7 +7498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 60.96 0)
+			(at 337.82 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7421,7 +7507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 60.96 0)
+			(at 337.82 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,7 +7516,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 222.25 60.96 0)
+			(at 337.82 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,7 +7538,7 @@
 	)
 	(symbol
 		(lib_id "50R:LD29150DT50R")
-		(at 222.25 58.42 0)
+		(at 337.82 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7461,7 +7547,7 @@
 		(fields_autoplaced yes)
 		(uuid "9631e5bc-3dd0-41e5-bd5a-b3477c2794a2")
 		(property "Reference" "CR2"
-			(at 247.65 48.26 0)
+			(at 363.22 69.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7469,7 +7555,7 @@
 			)
 		)
 		(property "Value" "LD29150DT50R"
-			(at 247.65 50.8 0)
+			(at 363.22 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7477,7 +7563,7 @@
 			)
 		)
 		(property "Footprint" "DPAK_STM"
-			(at 222.25 58.42 0)
+			(at 337.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7487,7 +7573,7 @@
 			)
 		)
 		(property "Datasheet" "LD29150DT50R"
-			(at 222.25 58.42 0)
+			(at 337.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,7 +7583,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 58.42 0)
+			(at 337.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7660,7 +7746,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 35.56 33.02 0)
+		(at 40.64 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7668,8 +7754,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba286513-866e-4e72-971c-03f8708c7b1d")
-		(property "Reference" "J2"
-			(at 36.83 31.7499 0)
+		(property "Reference" "servo2"
+			(at 41.91 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,16 +7764,17 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 36.83 34.2899 0)
+			(at 41.91 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 33.02 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7696,7 +7783,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 33.02 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7705,7 +7792,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 35.56 33.02 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7725,7 +7812,7 @@
 		(instances
 			(project "Morphex-PCB"
 				(path "/052358d7-5ddc-4c08-9f7c-e72527a6cfda"
-					(reference "J2")
+					(reference "servo2")
 					(unit 1)
 				)
 			)
@@ -7733,7 +7820,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 66.04 44.45 0)
+		(at 73.66 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7741,8 +7828,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcb29b1e-fc32-4951-ad46-b6204bb52911")
-		(property "Reference" "J9"
-			(at 67.31 43.1799 0)
+		(property "Reference" "servo9"
+			(at 74.93 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7751,16 +7838,17 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 67.31 45.7199 0)
+			(at 74.93 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 44.45 0)
+			(at 73.66 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7769,7 +7857,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 44.45 0)
+			(at 73.66 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,7 +7866,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 66.04 44.45 0)
+			(at 73.66 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7798,7 +7886,7 @@
 		(instances
 			(project "Morphex-PCB"
 				(path "/052358d7-5ddc-4c08-9f7c-e72527a6cfda"
-					(reference "J9")
+					(reference "servo9")
 					(unit 1)
 				)
 			)
@@ -7938,7 +8026,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 66.04 63.5 0)
+		(at 73.66 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7946,8 +8034,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c789716a-783f-4354-94d0-aa680a0e6e20")
-		(property "Reference" "J11"
-			(at 67.31 62.2299 0)
+		(property "Reference" "servo11"
+			(at 74.93 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7956,16 +8044,17 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 67.31 64.7699 0)
+			(at 74.93 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 63.5 0)
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7974,7 +8063,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 63.5 0)
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +8072,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 66.04 63.5 0)
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8003,7 +8092,7 @@
 		(instances
 			(project "Morphex-PCB"
 				(path "/052358d7-5ddc-4c08-9f7c-e72527a6cfda"
-					(reference "J11")
+					(reference "servo11")
 					(unit 1)
 				)
 			)
@@ -8252,7 +8341,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 35.56 68.58 0)
+		(at 40.64 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8260,8 +8349,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb44df3d-59f0-4db0-9d09-a353834570d2")
-		(property "Reference" "J12"
-			(at 36.83 67.3099 0)
+		(property "Reference" "servo6"
+			(at 41.91 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,16 +8359,17 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 36.83 69.8499 0)
+			(at 41.91 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 68.58 0)
+			(at 40.64 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8288,7 +8378,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 68.58 0)
+			(at 40.64 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8297,7 +8387,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 35.56 68.58 0)
+			(at 40.64 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,7 +8407,7 @@
 		(instances
 			(project "Morphex-PCB"
 				(path "/052358d7-5ddc-4c08-9f7c-e72527a6cfda"
-					(reference "J12")
+					(reference "servo6")
 					(unit 1)
 				)
 			)
@@ -8325,7 +8415,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 162.56 165.1 180)
+		(at 54.61 259.08 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8333,7 +8423,7 @@
 		(dnp no)
 		(uuid "cde9bb69-c1d2-49c9-aceb-c5b4991d9039")
 		(property "Reference" "C3"
-			(at 168.402 163.83 90)
+			(at 60.452 257.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,7 +8431,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 165.862 164.338 90)
+			(at 57.912 258.318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8349,7 +8439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 165.1 0)
+			(at 54.61 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8358,7 +8448,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 165.1 0)
+			(at 54.61 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8367,7 +8457,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 162.56 165.1 0)
+			(at 54.61 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8392,7 +8482,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 19.05 270)
+		(at 372.11 21.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8401,7 +8491,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf5756c9-73a9-4053-ba05-060470649ad9")
 		(property "Reference" "#PWR02"
-			(at 255.27 19.05 0)
+			(at 365.76 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,7 +8500,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 19.0499 90)
+			(at 368.3 21.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,7 +8509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 19.05 0)
+			(at 372.11 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +8518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 19.05 0)
+			(at 372.11 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +8527,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 19.05 0)
+			(at 372.11 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8525,7 +8615,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 35.56 41.91 0)
+		(at 40.64 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8533,8 +8623,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dca15087-3e66-4641-aed8-2f61ceeaa17b")
-		(property "Reference" "J4"
-			(at 36.83 40.6399 0)
+		(property "Reference" "servo3"
+			(at 41.91 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8543,16 +8633,17 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 36.83 43.1799 0)
+			(at 41.91 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 41.91 0)
+			(at 40.64 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8561,7 +8652,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 41.91 0)
+			(at 40.64 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,7 +8661,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 35.56 41.91 0)
+			(at 40.64 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8590,7 +8681,7 @@
 		(instances
 			(project "Morphex-PCB"
 				(path "/052358d7-5ddc-4c08-9f7c-e72527a6cfda"
-					(reference "J4")
+					(reference "servo3")
 					(unit 1)
 				)
 			)
@@ -8598,7 +8689,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 144.78 149.86 0)
+		(at 36.83 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8607,7 +8698,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1ddc979-d50b-4511-914f-a03911110f85")
 		(property "Reference" "#PWR011"
-			(at 144.78 153.67 0)
+			(at 36.83 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8616,7 +8707,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 144.78 144.78 0)
+			(at 36.83 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8624,7 +8715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 149.86 0)
+			(at 36.83 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,7 +8724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 149.86 0)
+			(at 36.83 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8642,7 +8733,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 144.78 149.86 0)
+			(at 36.83 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +8755,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 66.04 53.34 0)
+		(at 73.66 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8672,8 +8763,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8875845-db53-48e7-b336-812c727a1b88")
-		(property "Reference" "J10"
-			(at 67.31 52.0699 0)
+		(property "Reference" "servo10"
+			(at 74.93 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8682,16 +8773,17 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 67.31 54.6099 0)
+			(at 74.93 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 53.34 0)
+			(at 73.66 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8700,7 +8792,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 53.34 0)
+			(at 73.66 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8709,7 +8801,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 66.04 53.34 0)
+			(at 73.66 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8729,7 +8821,7 @@
 		(instances
 			(project "Morphex-PCB"
 				(path "/052358d7-5ddc-4c08-9f7c-e72527a6cfda"
-					(reference "J10")
+					(reference "servo10")
 					(unit 1)
 				)
 			)
