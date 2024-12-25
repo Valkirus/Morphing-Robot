@@ -105,7 +105,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
+			(layerselection 0x00010f4_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -137,9 +137,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerber/")
 		)
 	)
 	(net 0 "")
@@ -15384,7 +15384,7 @@
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H1"
-			(at 0 -4.2 0)
+			(at 0 -3.9 180)
 			(layer "F.SilkS")
 			(uuid "259fbe6d-c3ab-43e8-b13d-9cc685a36cc3")
 			(effects
@@ -17721,6 +17721,18 @@
 				(size 1 1)
 				(thickness 0.125)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Jirakorn Sukmee's \nTeensy 4.1 \nHexapod PCB"
+		(at 172.8 73.8 180)
+		(layer "F.SilkS")
+		(uuid "b46680c6-5b8e-4b35-8e8c-8276e6a8b08c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
