@@ -2680,7 +2680,7 @@
 			(pintype "passive")
 			(uuid "3e45ead1-ce87-444a-ac4c-5515df566ad9")
 		)
-		(model "NC7WZ241K8X.stp"
+		(model "${KIPRJMOD}/NC7WZ241K8X/US8-8_2P1X2P4_ONS.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6781,6 +6781,17 @@
 			(pinfunction "GROUND")
 			(pintype "power_out")
 			(uuid "919347b7-4e23-4f01-9de3-8a8d27804320")
+		)
+		(model "${KIPRJMOD}/33R/LD29150DT33R.step"
+			(offset
+				(xyz 0 -1.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -13662,6 +13673,17 @@
 			(pintype "power_out")
 			(uuid "e0790aee-a49f-4dbd-b85d-ec72c9e77652")
 		)
+		(model "${KIPRJMOD}/50R/LD29150DT50R.step"
+			(offset
+				(xyz 0 -1.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -14367,15 +14389,15 @@
 			(pintype "passive")
 			(uuid "78503d1c-3754-4e61-99c9-3058ca290b96")
 		)
-		(model "TXB0108PWR.stp"
+		(model "${KIPRJMOD}/TXB0108PWR/txb0108pwr.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -3.25 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 -90)
 			)
 		)
 	)
