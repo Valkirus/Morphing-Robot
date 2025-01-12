@@ -8312,7 +8312,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 182.88) (xy 35.56 182.88)
+			(xy 35.56 179.07) (xy 50.8 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8581,16 +8581,6 @@
 			(type default)
 		)
 		(uuid "a573b6cd-a788-4ebb-b8ce-17a27d97ad83")
-	)
-	(wire
-		(pts
-			(xy 41.91 179.07) (xy 50.8 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a618d7d4-dc54-4d94-81ba-fb7083c45232")
 	)
 	(wire
 		(pts
@@ -8963,16 +8953,6 @@
 			(type default)
 		)
 		(uuid "ccd31f7d-594f-468e-8410-45ae1f24e3cf")
-	)
-	(wire
-		(pts
-			(xy 41.91 182.88) (xy 41.91 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd1f902c-ee39-4f46-a398-6dc0ded17c9f")
 	)
 	(wire
 		(pts
@@ -19341,7 +19321,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 35.56 182.88 90)
+		(at 35.56 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19350,7 +19330,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf5f3213-f029-4187-bd63-5fe72dcf0d59")
 		(property "Reference" "#PWR063"
-			(at 39.37 182.88 0)
+			(at 39.37 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19359,7 +19339,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 31.75 182.8801 90)
+			(at 31.75 179.0701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19368,7 +19348,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 182.88 0)
+			(at 35.56 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19377,7 +19357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 182.88 0)
+			(at 35.56 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19386,7 +19366,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 35.56 182.88 0)
+			(at 35.56 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
