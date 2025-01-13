@@ -1,4 +1,4 @@
-24526810490086621
+24537231068112127
 AddedFootprints
 3.5 Inch Screen SPI_Module_ILI9488
 
@@ -98861,6 +98861,27 @@ TPS62056DGSR
 10
 10
 footprints
+DQM8
+
+TXS0102DQMR 
+0
+8
+8
+footprints
+DQM8-L
+
+TXS0102DQMR 
+0
+8
+8
+footprints
+DQM8-M
+
+TXS0102DQMR 
+0
+8
+8
+footprints
 IND_SRP2512_BRN
 
 SRP2512TMA-2R2M 
@@ -98951,6 +98972,27 @@ Integrated Circuit
 0
 20
 20
+footprints
+SOT-23_ONS
+
+MMBT8099LT1G 
+0
+3
+3
+footprints
+SOT-23_ONS-L
+
+MMBT8099LT1G 
+0
+3
+3
+footprints
+SOT-23_ONS-M
+
+MMBT8099LT1G 
+0
+3
+3
 footprints
 SOT23-5LD-PL-1_MCH
 
