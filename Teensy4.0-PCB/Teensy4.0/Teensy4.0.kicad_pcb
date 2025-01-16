@@ -614,7 +614,7 @@
 			(pintype "passive")
 			(uuid "58e8620b-22bd-4f45-87a3-e988f0ad8303")
 		)
-		(model "/Users/jirakornsukmee/Documents/Morphing-Robot/Teensy4.0-PCB/models/US8-8_2P1X2P4_ONS.step"
+		(model "/home/jirakorns/Documents/Morphing-Robot/Teensy4.0-PCB/models/US8-8_2P1X2P4_ONS.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4510,7 +4510,7 @@
 				)
 			)
 		)
-		(model "/Users/jirakornsukmee/Documents/Morphing-Robot/Teensy4.0-PCB/models/ICM-20948.step"
+		(model "/home/jirakorns/Documents/Morphing-Robot/Teensy4.0-PCB/models/ICM-20948.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7325,7 +7325,7 @@
 			(pintype "unspecified")
 			(uuid "ad3f7cba-822a-4cf1-b5e7-08ab35f42876")
 		)
-		(model "/Users/jirakornsukmee/Documents/Morphing-Robot/Teensy4.0-PCB/models/TXS0104ERGYR.step"
+		(model "/home/jirakorns/Documents/Morphing-Robot/Teensy4.0-PCB/models/TXS0104ERGYR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13953,7 +13953,7 @@
 			(pintype "unspecified")
 			(uuid "e33258cf-cfb4-4b0d-b145-b3cc712156cd")
 		)
-		(model "/Users/jirakornsukmee/Documents/Morphing-Robot/Teensy4.0-PCB/models/TXS0104ERGYR.step"
+		(model "/home/jirakorns/Documents/Morphing-Robot/Teensy4.0-PCB/models/TXS0104ERGYR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15266,7 +15266,7 @@
 			(pintype "passive")
 			(uuid "93824857-0d37-4d1a-8b60-670fd0fa292e")
 		)
-		(model "/Users/jirakornsukmee/Documents/Morphing-Robot/Teensy4.0-PCB/models/IND_SRP2512_BRN.step"
+		(model "/home/jirakorns/Documents/Morphing-Robot/Teensy4.0-PCB/models/IND_SRP2512_BRN.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19875,7 +19875,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "4aa67330-8dad-4051-8bb3-863c2484bfff")
 		)
-		(model "/Users/jirakornsukmee/Documents/Morphing-Robot/Teensy4.0-PCB/models/XT30PW-M.step"
+		(model "/home/jirakorns/Documents/Morphing-Robot/Teensy4.0-PCB/models/XT30PW-M.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21379,6 +21379,17 @@
 			(pinfunction "COLLECTOR")
 			(pintype "unspecified")
 			(uuid "a243fdaf-9c42-4acb-ac36-263e3b191fcf")
+		)
+		(model "/home/jirakorns/Documents/Morphing-Robot/Teensy4.0-PCB/models/SOT-23_ONS.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -23278,7 +23289,7 @@
 			(pintype "unspecified")
 			(uuid "b899f91a-e104-4fc1-a1f1-3a9b25c50a85")
 		)
-		(model "/Users/jirakornsukmee/Documents/Morphing-Robot/Teensy4.0-PCB/models/RGT0016C.stp"
+		(model "/home/jirakorns/Documents/Morphing-Robot/Teensy4.0-PCB/models/RGT0016C.stp"
 			(offset
 				(xyz 0 0 0)
 			)
