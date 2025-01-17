@@ -9428,7 +9428,6 @@
 	)
 	(label "serial_tx3"
 		(at 96.52 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9439,7 +9438,6 @@
 	)
 	(label "ICM_INT"
 		(at 153.67 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9450,7 +9448,6 @@
 	)
 	(label "OE_PIN"
 		(at 306.07 233.68 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9461,7 +9458,6 @@
 	)
 	(label "SCL"
 		(at 91.44 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9472,7 +9468,6 @@
 	)
 	(label "serial_tx2"
 		(at 96.52 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9483,7 +9478,6 @@
 	)
 	(label "SCL_1V8"
 		(at 30.48 175.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9494,7 +9488,6 @@
 	)
 	(label "from_nc7"
 		(at 307.34 238.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9505,7 +9498,6 @@
 	)
 	(label "serial_tx3"
 		(at 153.67 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9516,7 +9508,6 @@
 	)
 	(label "SDA"
 		(at 153.67 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9527,7 +9518,6 @@
 	)
 	(label "SDA"
 		(at 91.44 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9538,7 +9528,6 @@
 	)
 	(label "OE_PIN"
 		(at 267.97 257.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9549,7 +9538,6 @@
 	)
 	(label "serial_rx3"
 		(at 96.52 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9560,7 +9548,6 @@
 	)
 	(label "to_nc7"
 		(at 307.34 236.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9571,7 +9558,6 @@
 	)
 	(label "buzzer"
 		(at 313.69 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9582,7 +9568,6 @@
 	)
 	(label "buzzer"
 		(at 153.67 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9593,7 +9578,6 @@
 	)
 	(label "NRF_CE"
 		(at 308.61 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9604,7 +9588,6 @@
 	)
 	(label "INT_1V8"
 		(at 30.48 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9615,7 +9598,6 @@
 	)
 	(label "serial_rx2"
 		(at 96.52 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9626,7 +9608,6 @@
 	)
 	(label "NRF_CE"
 		(at 153.67 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9637,7 +9618,6 @@
 	)
 	(label "NRF_MOSI"
 		(at 308.61 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9648,7 +9628,6 @@
 	)
 	(label "serial_rx4"
 		(at 153.67 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9659,7 +9638,6 @@
 	)
 	(label "NRF_SCK"
 		(at 153.67 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9670,7 +9648,6 @@
 	)
 	(label "NRF_MISO"
 		(at 153.67 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9681,7 +9658,6 @@
 	)
 	(label "serial_rx3"
 		(at 153.67 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9692,7 +9668,6 @@
 	)
 	(label "servo_tx"
 		(at 153.67 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9703,7 +9678,6 @@
 	)
 	(label "from_nc7"
 		(at 267.97 262.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9714,7 +9688,6 @@
 	)
 	(label "SDA_1V8"
 		(at 123.19 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9725,7 +9698,6 @@
 	)
 	(label "servo_dir"
 		(at 207.01 255.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9736,7 +9708,6 @@
 	)
 	(label "NRF_MOSI"
 		(at 153.67 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9747,7 +9718,6 @@
 	)
 	(label "ICM_INT"
 		(at 91.44 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9758,7 +9728,6 @@
 	)
 	(label "button"
 		(at 153.67 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9769,7 +9738,6 @@
 	)
 	(label "SCL_1V8"
 		(at 123.19 180.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9780,7 +9748,6 @@
 	)
 	(label "NRF_MISO"
 		(at 308.61 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9791,7 +9758,6 @@
 	)
 	(label "servo_dir"
 		(at 153.67 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9802,7 +9768,6 @@
 	)
 	(label "NRF_CSN"
 		(at 308.61 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9813,7 +9778,6 @@
 	)
 	(label "SDA_1V8"
 		(at 30.48 172.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9824,7 +9788,6 @@
 	)
 	(label "button"
 		(at 340.36 168.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9835,7 +9798,6 @@
 	)
 	(label "serial_tx2"
 		(at 153.67 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9846,7 +9808,6 @@
 	)
 	(label "to_nc7"
 		(at 267.97 260.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9857,7 +9818,6 @@
 	)
 	(label "serial_tx4"
 		(at 153.67 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9868,7 +9828,6 @@
 	)
 	(label "servo_rx"
 		(at 207.01 260.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9879,7 +9838,6 @@
 	)
 	(label "SCL"
 		(at 153.67 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9890,7 +9848,6 @@
 	)
 	(label "serial_rx4"
 		(at 96.52 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9901,7 +9858,6 @@
 	)
 	(label "serial_rx2"
 		(at 153.67 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9912,7 +9868,6 @@
 	)
 	(label "NRF_SCK"
 		(at 308.61 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9923,7 +9878,6 @@
 	)
 	(label "serial_tx4"
 		(at 96.52 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9934,7 +9888,6 @@
 	)
 	(label "servo_tx"
 		(at 207.01 257.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9945,7 +9898,6 @@
 	)
 	(label "INT_1V8"
 		(at 120.65 193.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9956,7 +9908,6 @@
 	)
 	(label "NRF_CSN"
 		(at 153.67 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9967,7 +9918,6 @@
 	)
 	(label "servo_rx"
 		(at 153.67 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

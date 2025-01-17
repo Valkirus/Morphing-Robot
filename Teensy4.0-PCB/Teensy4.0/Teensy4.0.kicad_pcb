@@ -26174,6 +26174,45 @@
 		(layer "Edge.Cuts")
 		(uuid "bfcdc40e-67b5-4675-a947-c062e5fb900c")
 	)
+	(gr_text "24"
+		(at 136.75 72.5 0)
+		(layer "F.SilkS")
+		(uuid "10d2bc66-75d4-41ab-b8c9-05d250c8b64b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "29"
+		(at 134.25 79.5 0)
+		(layer "F.SilkS")
+		(uuid "1c1371ea-955d-4dbb-8d91-0836974dab68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "31"
+		(at 129 79.5 0)
+		(layer "F.SilkS")
+		(uuid "3112eee7-4807-4f60-8008-a7e74045d395")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "V0.2"
 		(at 109.1 103.8 0)
 		(layer "F.SilkS")
@@ -26187,6 +26226,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "26"
+		(at 131.75 72.5 0)
+		(layer "F.SilkS")
+		(uuid "8a8f9b8a-4b14-4811-b17d-a74dc120a010")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Jirakorn Sukmee's \nTeensy 4.0\nHexapod Controller"
 		(at 109 101.2 0)
 		(layer "F.SilkS")
@@ -26195,6 +26247,58 @@
 			(font
 				(size 1.5 1.5)
 				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "28"
+		(at 136.75 79.5 0)
+		(layer "F.SilkS")
+		(uuid "94223a43-7c74-4660-860b-bcfea07e78b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "30"
+		(at 131.75 79.5 0)
+		(layer "F.SilkS")
+		(uuid "adae28af-8b71-4461-b26f-77ad6084173f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "25\n"
+		(at 134.25 72.5 0)
+		(layer "F.SilkS")
+		(uuid "b5372e8d-98ef-4423-96c5-f44ede1ef944")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "27"
+		(at 129 72.5 0)
+		(layer "F.SilkS")
+		(uuid "e769f3c5-b8f5-409b-83a0-7fba874ab65d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -28171,7 +28275,7 @@
 		(uuid "fbf9032f-beeb-466c-b5d8-dd5d00b116ae")
 	)
 	(via
-		(at 122.5 71.55)
+		(at 122.5 72)
 		(size 1)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
