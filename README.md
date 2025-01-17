@@ -16,6 +16,7 @@ This is a WIP project I'm working on. It'll take years to gather knowledge and t
 - ~$30 for small hardware pieces (Spacers, Threaded Rods, Bearings,)
 - $815.78 for all 33 servos and controllers (with metal horns) 1x HTS-35H, 32x HTD-45H
 - $64.18 for brackets to mount each legs
+- $72.54 for Custom PCB and Electronics (for now)
 
 **Total:** $1,184.49
 
@@ -33,3 +34,6 @@ This is a WIP project I'm working on. It'll take years to gather knowledge and t
 
 **20/12/2024 22:36:**
 - Remade a few parts to actually fit read world designs and store bought parts.
+
+**17/01/2025 20:48:**
+- Finalized Custom PCB (I think). Ready to be ordered and assembled.
