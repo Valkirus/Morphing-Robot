@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.7"
+      "Version": "8.0.8"
     },
-    "CreationDate": "2025-01-14T18:40:28+07:00"
+    "CreationDate": "2025-01-18T14:14:55+07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -36,9 +36,8 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.3,
-      "TrackToRegion": 0.2,
-      "RegionToRegion": 0.2
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
     }
   ],
   "FilesAttributes": [
@@ -60,16 +59,6 @@
     {
       "Path": "Teensy4.0-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Teensy4.0-F_Paste.gbr",
-      "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Teensy4.0-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
