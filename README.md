@@ -12,10 +12,6 @@ Hexapod:
 ![hexapod1](images/solidworks-4.png)
 ![hexapod](images/solidworks-7.png)
 
-PCB:
-![PCB1](images/3D-CroppedPCB.png)
-![PCB](images/PCB-HEXAPOD.png)
-
 ## Costs
 **15/12/2024 01:49:**
 - $274.51 for All CNC machined parts (so far)
